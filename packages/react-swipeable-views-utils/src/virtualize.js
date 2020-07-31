@@ -25,8 +25,9 @@ export default function virtualize(MyComponent) {
     componentWillMount() {
       this.setWindow(this.state.index);
     }
-
-    componentWillReceiveProps(nextProps) {
+  
+    // eslint-disable-next-line camelcase, react/sort-comp
+    UNSAFE_componentWillReceiveProps(nextProps) {
       const { index } = nextProps;
 
       if (typeof index === 'number' && index !== this.props.index) {

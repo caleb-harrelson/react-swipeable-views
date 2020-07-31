@@ -130,7 +130,8 @@ class SwipeableViews extends React.Component<Props, State> {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
+  // eslint-disable-next-line camelcase, react/sort-comp
+  UNSAFE_componentWillReceiveProps(nextProps) {
     const { index } = nextProps;
 
     if (typeof index === 'number' && index !== this.props.index) {
