@@ -16,7 +16,7 @@ import {
   checkIndexBounds,
   computeIndex,
   getDisplaySameSlide,
-} from 'react-swipeable-views-core';
+} from 'react-17-swipeable-views-core';
 
 const styles = StyleSheet.create({
   root: {

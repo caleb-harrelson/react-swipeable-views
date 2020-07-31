@@ -1,5 +1,5 @@
 {
-  "name": "react-swipeable-views-utils",
+  "name": "react-17-swipeable-views-utils",
   "version": "0.13.9",
   "description": "react-swipeable-views utility modules",
   "main": "lib/index.js",
@@ -19,7 +19,7 @@
     "keycode": "^2.1.7",
     "prop-types": "^15.6.0",
     "react-event-listener": "^0.6.0",
-    "react-swipeable-views-core": "^0.13.7",
+    "react-17-swipeable-views-core": "^0.13.7",
     "shallow-equal": "^1.2.1"
   },
   "devDependencies": {
